@@ -17,7 +17,6 @@ bool digitando = false;
 unsigned long previousMillis = 0;
 const long intervalo = 500;
 
-
 const byte LINHAS = 4;   // Linhas do teclado
 const byte COLUNAS = 3;  // Colunas do teclado
 
