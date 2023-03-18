@@ -50,8 +50,10 @@ void loop() {
 
   if (digitalRead(BOTAO) == HIGH) {  // verifica se botão de destravamento é pressionado
 
-    senhaCerta();
+    
     Serial.print("botao pressionado");
+    senhaCerta();
+    delay(1000);
   }
 }
 
